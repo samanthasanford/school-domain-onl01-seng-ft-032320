@@ -22,12 +22,12 @@ class School
   end
 
   def sort
-    new_hash = {}
-    roster.each do |i, j|
-      new_hash[i] = j.sort
+    sorted_students = {}
+    roster.each do |k, v|
+      sorted_students[i] = v.sort
   end
 
-  new_hash
+  sorted_students
 
     end
 
