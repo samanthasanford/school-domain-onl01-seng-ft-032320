@@ -21,8 +21,12 @@ class School
     @roster[grade]
   end
 
-  def sort(students)
-    puts student.sort
+  def sort(roster)
+    roster.collect do |grade, students|
+      roster[grade] = student.sort!
+  end
+
+  roster
 
     end
 
