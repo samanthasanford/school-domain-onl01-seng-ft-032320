@@ -22,9 +22,9 @@ class School
   end
 
   def sort
-    students_sorted = @school.sort
+    puts student.sort
+
     end
 
-students_sorted
 
 end
