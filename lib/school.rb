@@ -22,12 +22,12 @@ class School
   end
 
   def sort
-    sorted_students = {}
+    sorted_students_hash = {}
     roster.each do |k, v|
-      sorted_students[i] = v.sort
+      sorted_students_hash[i] = v.sort
   end
 
-  sorted_students
+  sorted_students_hash
 
     end
 
