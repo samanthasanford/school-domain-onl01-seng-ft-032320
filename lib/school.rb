@@ -24,7 +24,7 @@ class School
   def sort
     new_hash = {}
     roster.each do |k, v|
-     new_hash[i] = v.sort
+     new_hash[k] = v.sort
   end
 
   new_hash
